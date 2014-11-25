@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE8304A1A2469C20041F2B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE830491A2469C20041F2B7 /* main.m */; };
+		2FE8304D1A2469C20041F2B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8304C1A2469C20041F2B7 /* AppDelegate.m */; };
+		2FE830531A2469C20041F2B7 /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE830511A2469C20041F2B7 /* Main1.storyboard */; };
+		2FE830551A2469C20041F2B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE830541A2469C20041F2B7 /* Images.xcassets */; };
+		2FE830581A2469C20041F2B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE830561A2469C20041F2B7 /* LaunchScreen.xib */; };
+		2FE830641A2469C20041F2B7 /* HoroscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE830631A2469C20041F2B7 /* HoroscopeTests.m */; };
+		2FE830731A246A780041F2B7 /* JDSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE830701A246A780041F2B7 /* JDSideMenu.m */; };
+		2FE830741A246A780041F2B7 /* UIViewController+JDSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE830721A246A780041F2B7 /* UIViewController+JDSideMenu.m */; };
+		2FE830791A246CE50041F2B7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE830771A246CE50041F2B7 /* MenuViewController.m */; };
+		2FE8307A1A246CE50041F2B7 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE830781A246CE50041F2B7 /* MenuViewController.xib */; };
+		2FE830831A246D5B0041F2B7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE830811A246D5B0041F2B7 /* MainViewController.m */; };
+		2FE830841A246D5B0041F2B7 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE830821A246D5B0041F2B7 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FE8305E1A2469C20041F2B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FE8303C1A2469C20041F2B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FE830431A2469C20041F2B7;
+			remoteInfo = Horoscope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FE830441A2469C20041F2B7 /* Horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE830481A2469C20041F2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE830491A2469C20041F2B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FE8304B1A2469C20041F2B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FE8304C1A2469C20041F2B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FE830521A2469C20041F2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main1.storyboard; sourceTree = "<group>"; };
+		2FE830541A2469C20041F2B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FE830571A2469C20041F2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2FE8305D1A2469C20041F2B7 /* HoroscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoroscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE830621A2469C20041F2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE830631A2469C20041F2B7 /* HoroscopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoroscopeTests.m; sourceTree = "<group>"; };
+		2FE8306F1A246A780041F2B7 /* JDSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSideMenu.h; sourceTree = "<group>"; };
+		2FE830701A246A780041F2B7 /* JDSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSideMenu.m; sourceTree = "<group>"; };
+		2FE830711A246A780041F2B7 /* UIViewController+JDSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JDSideMenu.h"; sourceTree = "<group>"; };
+		2FE830721A246A780041F2B7 /* UIViewController+JDSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JDSideMenu.m"; sourceTree = "<group>"; };
+		2FE830761A246CE50041F2B7 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		2FE830771A246CE50041F2B7 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		2FE830781A246CE50041F2B7 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		2FE830801A246D5B0041F2B7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2FE830811A246D5B0041F2B7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2FE830821A246D5B0041F2B7 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FE830411A2469C20041F2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE8305A1A2469C20041F2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE8303B1A2469C20041F2B7 = {
+			isa = PBXGroup;
+			children = (
+				2FE830461A2469C20041F2B7 /* Horoscope */,
+				2FE830601A2469C20041F2B7 /* HoroscopeTests */,
+				2FE830451A2469C20041F2B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FE830451A2469C20041F2B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE830441A2469C20041F2B7 /* Horoscope.app */,
+				2FE8305D1A2469C20041F2B7 /* HoroscopeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FE830461A2469C20041F2B7 /* Horoscope */ = {
+			isa = PBXGroup;
+			children = (
+				2FE830751A246CA80041F2B7 /* View */,
+				2FE8306D1A246A780041F2B7 /* Third Class */,
+				2FE8304B1A2469C20041F2B7 /* AppDelegate.h */,
+				2FE8304C1A2469C20041F2B7 /* AppDelegate.m */,
+				2FE830511A2469C20041F2B7 /* Main1.storyboard */,
+				2FE830541A2469C20041F2B7 /* Images.xcassets */,
+				2FE830561A2469C20041F2B7 /* LaunchScreen.xib */,
+				2FE830471A2469C20041F2B7 /* Supporting Files */,
+			);
+			path = Horoscope;
+			sourceTree = "<group>";
+		};
+		2FE830471A2469C20041F2B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE830481A2469C20041F2B7 /* Info.plist */,
+				2FE830491A2469C20041F2B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FE830601A2469C20041F2B7 /* HoroscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FE830631A2469C20041F2B7 /* HoroscopeTests.m */,
+				2FE830611A2469C20041F2B7 /* Supporting Files */,
+			);
+			path = HoroscopeTests;
+			sourceTree = "<group>";
+		};
+		2FE830611A2469C20041F2B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE830621A2469C20041F2B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FE8306D1A246A780041F2B7 /* Third Class */ = {
+			isa = PBXGroup;
+			children = (
+				2FE8306E1A246A780041F2B7 /* JDSideMenu */,
+			);
+			path = "Third Class";
+			sourceTree = "<group>";
+		};
+		2FE8306E1A246A780041F2B7 /* JDSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2FE8306F1A246A780041F2B7 /* JDSideMenu.h */,
+				2FE830701A246A780041F2B7 /* JDSideMenu.m */,
+				2FE830711A246A780041F2B7 /* UIViewController+JDSideMenu.h */,
+				2FE830721A246A780041F2B7 /* UIViewController+JDSideMenu.m */,
+			);
+			path = JDSideMenu;
+			sourceTree = "<group>";
+		};
+		2FE830751A246CA80041F2B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FE830761A246CE50041F2B7 /* MenuViewController.h */,
+				2FE830771A246CE50041F2B7 /* MenuViewController.m */,
+				2FE830781A246CE50041F2B7 /* MenuViewController.xib */,
+				2FE830801A246D5B0041F2B7 /* MainViewController.h */,
+				2FE830811A246D5B0041F2B7 /* MainViewController.m */,
+				2FE830821A246D5B0041F2B7 /* MainViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FE830431A2469C20041F2B7 /* Horoscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE830671A2469C20041F2B7 /* Build configuration list for PBXNativeTarget "Horoscope" */;
+			buildPhases = (
+				2FE830401A2469C20041F2B7 /* Sources */,
+				2FE830411A2469C20041F2B7 /* Frameworks */,
+				2FE830421A2469C20041F2B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horoscope;
+			productName = Horoscope;
+			productReference = 2FE830441A2469C20041F2B7 /* Horoscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FE8305C1A2469C20041F2B7 /* HoroscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE8306A1A2469C20041F2B7 /* Build configuration list for PBXNativeTarget "HoroscopeTests" */;
+			buildPhases = (
+				2FE830591A2469C20041F2B7 /* Sources */,
+				2FE8305A1A2469C20041F2B7 /* Frameworks */,
+				2FE8305B1A2469C20041F2B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FE8305F1A2469C20041F2B7 /* PBXTargetDependency */,
+			);
+			name = HoroscopeTests;
+			productName = HoroscopeTests;
+			productReference = 2FE8305D1A2469C20041F2B7 /* HoroscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FE8303C1A2469C20041F2B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "施傲天";
+				TargetAttributes = {
+					2FE830431A2469C20041F2B7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2FE8305C1A2469C20041F2B7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2FE830431A2469C20041F2B7;
+					};
+				};
+			};
+			buildConfigurationList = 2FE8303F1A2469C20041F2B7 /* Build configuration list for PBXProject "Horoscope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FE8303B1A2469C20041F2B7;
+			productRefGroup = 2FE830451A2469C20041F2B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FE830431A2469C20041F2B7 /* Horoscope */,
+				2FE8305C1A2469C20041F2B7 /* HoroscopeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FE830421A2469C20041F2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE830531A2469C20041F2B7 /* Main1.storyboard in Resources */,
+				2FE830581A2469C20041F2B7 /* LaunchScreen.xib in Resources */,
+				2FE830841A246D5B0041F2B7 /* MainViewController.xib in Resources */,
+				2FE830551A2469C20041F2B7 /* Images.xcassets in Resources */,
+				2FE8307A1A246CE50041F2B7 /* MenuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE8305B1A2469C20041F2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FE830401A2469C20041F2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE830791A246CE50041F2B7 /* MenuViewController.m in Sources */,
+				2FE830831A246D5B0041F2B7 /* MainViewController.m in Sources */,
+				2FE8304D1A2469C20041F2B7 /* AppDelegate.m in Sources */,
+				2FE8304A1A2469C20041F2B7 /* main.m in Sources */,
+				2FE830731A246A780041F2B7 /* JDSideMenu.m in Sources */,
+				2FE830741A246A780041F2B7 /* UIViewController+JDSideMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE830591A2469C20041F2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE830641A2469C20041F2B7 /* HoroscopeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FE8305F1A2469C20041F2B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FE830431A2469C20041F2B7 /* Horoscope */;
+			targetProxy = 2FE8305E1A2469C20041F2B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FE830511A2469C20041F2B7 /* Main1.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE830521A2469C20041F2B7 /* Base */,
+			);
+			name = Main1.storyboard;
+			sourceTree = "<group>";
+		};
+		2FE830561A2469C20041F2B7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE830571A2469C20041F2B7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FE830651A2469C20041F2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FE830661A2469C20041F2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FE830681A2469C20041F2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Horoscope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FE830691A2469C20041F2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Horoscope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FE8306B1A2469C20041F2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoroscopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horoscope.app/Horoscope";
+			};
+			name = Debug;
+		};
+		2FE8306C1A2469C20041F2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoroscopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horoscope.app/Horoscope";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE8303F1A2469C20041F2B7 /* Build configuration list for PBXProject "Horoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE830651A2469C20041F2B7 /* Debug */,
+				2FE830661A2469C20041F2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE830671A2469C20041F2B7 /* Build configuration list for PBXNativeTarget "Horoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE830681A2469C20041F2B7 /* Debug */,
+				2FE830691A2469C20041F2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FE8306A1A2469C20041F2B7 /* Build configuration list for PBXNativeTarget "HoroscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE8306B1A2469C20041F2B7 /* Debug */,
+				2FE8306C1A2469C20041F2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FE8303C1A2469C20041F2B7 /* Project object */;
+}
